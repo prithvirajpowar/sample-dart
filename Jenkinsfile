@@ -10,7 +10,7 @@ pipeline {
     
     stage('Build') {
       steps {
-        sh 'dart hello.dart'
+        sh 'dart sample.dart'
       }
     }
   }
